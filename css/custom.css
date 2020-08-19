@@ -6,12 +6,18 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display SC", serif;
   color: #333333; }
 
-a, p, li {
+ p, li {
   font-family: "Lato", Arial, sans-serif;
   color: #4e4e4e;
   font-size: 1em;
   line-height: 1.75em; }
 
+  a{
+	  display:inline-block; 
+	  width:60px;
+  }
+  
+  
 a:hover {
   text-decoration: none !important;
   color: #333333 !important;
@@ -31,7 +37,16 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto; }
-
+	
+.Row {
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+.Column {
+    display:  inline-block;
+}
   footer {
     text-align: center; } }
 .typed-cursor {
